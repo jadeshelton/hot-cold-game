@@ -50,7 +50,7 @@ $(document).ready(function(){
       } else if (difference >= 30 && difference < 50) {
         $('#feedback').html('Brrrr it\'s cold in here!  Because your guess is not close');
       } else if (difference >= 10 && difference < 30) {
-        $('#feedback').html('Your guess is warm, like the inside of a taun-taun!');
+        $('#feedback').html('Your guess is warm, like the inside of a tauntaun!');
       } else {
         $('#feedback').html('Your guess, your guess, your guess is on fire!  You\'re so close!');
       }
